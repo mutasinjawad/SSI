@@ -118,7 +118,7 @@ cd ssi-tutorial/demo/acapy
 
 # Copy the sample .env file
 cp .env.sample .env
-# Edit `.env` with the correct variables (e.g., ngrok URL)
+# Edit `.env` with the correct variables (e.g., ACAPY_ADMIN_URL and {your-ip-address})
 
 # Install dependencies
 yarn install
@@ -138,7 +138,6 @@ cd ssi-tutorial/interface
 # Copy the sample .env file
 cp .env.sample .env
 # Update API URL in `.env`
-
 # For API v2 (recommended):
 NEXT_PUBLIC_API_URL=http://{your_ip_address}:4000/v2
 
