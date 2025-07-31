@@ -46,7 +46,7 @@ Make sure the following tools are installed on your system before continuing:
 ---
 # 🔨 Setup Guide
 
-The setup guide will be easy and straightforward, as most of the work is complete. You just need to install the requirements and setup the environment file.
+The setup guide will be easy and straightforward, as most of the work is complete. You just need to install the requirements and setup the environment files.
 We will complete the setup in 5 steps:
 
 - Clone the Repository
