@@ -94,6 +94,9 @@ LEDGER_URL=http://dev.greenlight.bcovrin.vonx.io ./run_demo faber
 
 # or you can set a manual endpoint yourself:
 LEDGER_URL=http://dev.greenlight.bcovrin.vonx.io AGENT_ENDPOINT=https://{ngrok_url} ./run_demo faber
+# You can find the ngrok_url in the terminal where you started it
+# The line is like this:
+# Forwarding     https://{ngrok_url} -> http://localhost:8020  
 ```
 > *Troubleshooting tip: If the above fails with a network error, try switching to mobile data or a different Wi-Fi.*
 
