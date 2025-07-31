@@ -196,3 +196,6 @@ Alternatively, if using a separate verifier:
 - Share the credential proof using your wallet.
 - The verifier will validate the shared proof.
 </div>
+
+# 📽️ For video demonstration
+> You can go [`Here`](https://youtu.be/gqjBc5zikMs)
