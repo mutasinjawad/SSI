@@ -89,14 +89,14 @@ python3 -m pip install -r requirements.txt
 python3 -m pip install -r requirements.txt --break-system-packages
 ```
 
-⚠️ Important: Keep Docker running in the background. <br/>
-🐧 Use Git Bash or a Linux-based CLI (like WSL or Ubuntu terminal) as ./run_demo is a Unix shell script.
-
 ### Start Ngrok
 ```bash
 ngrok http 8020
 ```
 > *This gives you a public HTTPS URL — you’ll use it in the next step.*
+
+⚠️ Important: Keep Docker running in the background. <br/>
+🐧 Use Git Bash or a Linux-based CLI (like WSL or Ubuntu terminal) as ./run_demo is a Unix shell script.
 
 ### Start the Agent
 ```bash
