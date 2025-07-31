@@ -58,6 +58,8 @@ We will complete the setup in 5 steps:
 ## 🪢 Step I - Clone this Repository (This will be your `root` folder)
 ```bash
 git clone https://github.com/mutasinjawad/SSI.git
+
+cd SSI
 ```
 ## 🧪 Step II - ACA-Py Agent Setup (`acapy/` folder)
 
