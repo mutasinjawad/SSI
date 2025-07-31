@@ -76,6 +76,7 @@ cd acapy/demo
 
 # Update asyncpg version to avoid compatibility issues
 sed -i 's/asyncpg.*/asyncpg~=0.28.0/' requirements.txt
+# Or you can do it manually
 ```
 
 ### Install Dependencies
