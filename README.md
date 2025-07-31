@@ -5,7 +5,6 @@ This repository provides a complete Self-Sovereign Identity (SSI) demo setup usi
 ```
 /
 ├── acapy/            # ACA-Py agent cloned from OpenWallets (have to clone separately)
-├── bifold-wallet/    # You can ignore it if you only want to run the ACA-Py agent
 ├── ssi-tutorial/
 │ ├── demo/           # Contains the server and supporting files
 │ │ ├── acapy/        # Backend server setup (We will be using acapy agent)
@@ -14,7 +13,6 @@ This repository provides a complete Self-Sovereign Identity (SSI) demo setup usi
 ```
 
 - **`acapy/`**: You have to clone it from another repo. For more details, refer to the setup guide below. It's used to run SSI agents for credential issuance, verification, and communication.
-- **`bifold-wallet/`**: This is the modified version of the Aries Bifold Wallet. It might be incomplete.
 - **`ssi-tutorial/demo/acapy`**: Acts as the backend server, issuing and verifying credentials.
 - **`ssi-tutorial/interface`**: A web interface to interact with the agent.
 
