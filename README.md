@@ -4,7 +4,7 @@ This repository provides a complete Self-Sovereign Identity (SSI) demo setup usi
 
 ```
 /
-├── acapy/            # ACA-Py agent cloned from OpenWallets (already included)
+├── acapy/            # ACA-Py agent cloned from OpenWallets (have to clone separately)
 ├── ssi-tutorial/
 │ ├── demo/           # Contains the server and supporting files
 │ │ ├── acapy/        # Backend server setup (We will be using acapy agent)
@@ -63,14 +63,24 @@ cd SSI
 ```
 ## 🧪 Step II - ACA-Py Agent Setup (`acapy/` folder)
 
-You don’t need to clone the ACA-Py repo separately — it’s already included in this repository under `acapy/`.
-> *In case you want to check out the original repo: [`Here`](https://github.com/openwallet-foundation/acapy.git)*
+> *You need to clone the ACA-Py repo separately. It will be in the same directory as `ssi-tutorial/`*
+
+### Clone OpenWallets official ACA-Py repository
+
+```
+# Clone OpenWallets official ACA-Py repository
+git clone -b 0.12.3 https://github.com/openwallet-foundation/acapy.git
+
+# Go to the demo directory
+cd acapy/demo
+
+# Update asyncpg version to avoid compatibility issues
+sed -i 's/asyncpg.*/asyncpg~=0.28.0/' requirements.txt
+```
 
 ### Install Dependencies
 
-```bash
-cd acapy/demo
-
+```
 # Install Python dependencies
 python3 -m pip install -r requirements.txt
 
