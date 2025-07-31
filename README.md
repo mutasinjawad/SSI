@@ -12,7 +12,7 @@ This repository provides a complete Self-Sovereign Identity (SSI) demo setup usi
 │ └── interface/      # Frontend interface (React-based)
 ```
 
-- **`acapy/`**: You have to clone it from another repo. For more details, refer to the setup guide below. It's used to run SSI agents for credential issuance, verification, and communication.
+- **`acapy/`**: You have to clone it from another repo. For more details, refer to the [`Setup Guide`](https://www.mendeley.com/download-reference-manager/windows) below. It's used to run SSI agents for credential issuance, verification, and communication.
 - **`ssi-tutorial/demo/acapy`**: Acts as the backend server, issuing and verifying credentials.
 - **`ssi-tutorial/interface`**: A web interface to interact with the agent.
 
